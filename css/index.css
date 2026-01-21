@@ -1,0 +1,452 @@
+/* Aquí encontramos todos aquellos elementos que no son globales pero que forman parte del index, es decir aqui tenemos: EL HERO y LA SECCIÓN CON LAS CUATRO TARJETAS DE PROYECTOS así como sus respectivos mediaqueries */
+/* Cambios */
+
+/* __________________
+        HERO 
+ ____________________ */
+
+
+ .Hero {
+  position: relative;
+  width: 100%;
+  min-height: 90vh;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Hero-title {
+  font-family: "Editorial";
+  font-size: 8vw; /* puedes usar 10cqw si prefieres container queries */
+  font-weight: 100;
+  line-height: 1;
+  z-index: 1;
+}
+
+.Hero-gif {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  /* border-radius: 8px; */
+  z-index: 0;
+  
+}
+
+/* 🎯 Posiciones personalizadas de cada gif */
+/* .gif-1 {
+  top: 10%;
+  left: 60%;
+    width: 10vw;
+  height: auto;
+}
+
+.gif-2 {
+  top: 40%;
+  right: 55%;
+     width: 10vw;
+  height: auto;
+
+}
+
+.gif-3 {
+  bottom: 10%;
+  left: 20%;
+     width: 10vw;
+  height: auto;
+
+} */
+
+
+/* .Hero-videoContainer {
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.Hero-video {
+  width: 100%;
+  height: 17rem;
+  clip-path: inset(0 0 10px 0);
+  padding: 0rem 1rem;
+} */
+
+.Hero-titulo {
+  padding: 2rem var(--padding) 1rem;
+  font-size: 1.125rem;
+}
+
+.Hero-arrow {
+  font-size: 1.5em;
+  color: var(--color-gris);
+  padding-left: var(--padding);
+}
+
+/* ______________________
+       CARDS EN GENERAL 
+ ________________________ */
+
+.Proyectos {
+  padding: 3rem 1rem;
+}
+
+.Proyectos-title {
+  font-size: var(--font-size-lead);
+  margin-bottom: var(--padding);
+  letter-spacing: var(--letter-spacing);
+  color: var(--color-gris);
+}
+
+.Proyectos-grid {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+
+.Proyecto {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-violet);
+  border-radius: var(--border-radius-img);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.Proyecto:hover {
+  transform: scale(1.05);
+}
+
+.Proyecto-imgContainer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  width: 100%;
+}
+
+.Proyecto-img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius-img) var(--border-radius-img) 0 0;
+  filter: brightness();
+}
+
+.Proyecto-title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  letter-spacing: var(--letter-spacing);
+}
+
+.Proyecto-texts {
+  height: auto;
+  margin: 1rem 1.25rem;
+}
+
+.Proyecto-subtit {
+  font-size: 1rem;
+  margin: 0.5rem 0rem 0.8rem 0.5rem;
+  word-wrap: break-word;
+}
+
+.Proyecto-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  max-width: 85%;
+}
+
+.Proyecto-tag {
+  display: flex;
+  align-items: center;
+  border-radius: 2rem;
+  padding: 0.5rem 0.8rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  white-space: normal; /* permitir que se rompan si es necesario */
+  word-break: break-word;
+}
+
+/* ___________________________  
+       CARDS INDIVIDUALES      
+ ___________________________ */
+
+/* Proyecto STEEZ */
+.Proyecto--steez {
+  background-color: #1e1e1e;
+  color: var(--color-secondary);
+}
+
+.Proyecto-tag--steez {
+  background-color: #464646;
+}
+
+/* Proyecto BRILLO */
+.Proyecto--brillo {
+  background-color: #21300e;
+  color: var(--color-secondary);
+}
+
+.Proyecto-tag--brillo {
+  background-color: #41522e;
+}
+
+/* Proyecto FESTIVAL */
+.Proyecto--festival {
+  background-color: #0418d8;
+  color: var(--color-secondary);
+}
+
+.Proyecto-tag--festival {
+  background-color: rgb(52, 72, 255);
+}
+
+/* Proyecto LUGAR */
+.Proyecto--lugar {
+  background-color: #5245aa;
+  color: var(--color-secondary);
+}
+
+.Proyecto-tag--lugar {
+  background-color: #776ad1;
+  color: var(--color-secondary);
+}
+
+/* Proyecto TROPA */
+.Proyecto--tropa {
+  background-color: #5f2626;
+  color: var(--color-secondary);
+}
+
+.Proyecto-tag--tropa {
+  background-color: #8f4c4c;
+  color: var(--color-secondary);
+}
+
+/* Proyecto MOTTOR */
+.Proyecto--mottor {
+  background-color: #014abf;
+  color: var(--color-secondary);
+}
+
+.Proyecto-tag--mottor {
+  background-color: #1464e5;
+  color: var(--color-secondary);
+}
+
+.Proyectoo {
+  /* volver a poner Proyecto */
+  border-radius: var(--border-radius-img);
+  display: flex;
+  flex-direction: column;
+}
+
+/* iframe */
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* Relación 16:9 (ajustable) */
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+/* ________________________  
+         Media Queries    
+ ________________________ */
+
+/* MÓVILES GRANDES */
+@media (min-width: 481px) and (max-width: 767px) {
+  .Hero {
+    padding: 4rem 0rem 1rem;
+  }
+
+  .Hero-videoContainer {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .Hero-video {
+    height: 22rem;
+    /* margin-top: -3rem; */
+    clip-path: inset(0 0 10px 0);
+  }
+
+  .Hero-titulo {
+    font-size: 1.4rem;
+  }
+
+  .Proyectos {
+    padding: 3rem;
+  }
+ .Proyecto-tags {
+       max-width: 70%;
+  }
+ 
+
+  .Proyecto-tag {
+    font-size: 0.8rem;
+  }
+}
+
+/* TABLETS */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .Hero-videoContainer {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .Hero-video {
+    height: 30rem;
+    /* margin-top: -3rem; */
+    clip-path: inset(0 0 10px 0);
+  }
+
+  .Hero-titulo {
+    font-size: 1.4rem;
+    padding-left: 4rem;
+  }
+
+  .Hero-arrow {
+    padding-left: 4rem;
+  }
+  .Proyectos {
+    padding: 4rem;
+  }
+
+  .Proyectos-grid {
+    gap: 2.4rem;
+  }
+
+  .Proyecto-subtit {
+    max-width: 60%;
+  }
+
+  .Proyecto-tag {
+    font-size: 0.9rem;
+    display: flex;
+    gap: 0rem 0.6rem;
+    max-width: 100%;
+  }
+}
+
+/* DESKTOP MEDIO */
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .Hero-videoContainer {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .Hero-video {
+    width: 100%;
+    height: auto;
+    /* margin-top: -30px;  */
+    /* Ajusta el recorte superior */
+    clip-path: inset(0 0 10px 0);
+  }
+
+  .Hero-titulo {
+    font-size: 1.4rem;
+    padding: 6rem 2rem 1rem;
+  }
+
+  .Hero {
+    height: auto;
+  }
+
+  .Proyectos {
+    padding: 3.2rem 2rem 4rem;
+  }
+
+  .Proyectos-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+
+  .Proyecto-textsTit {
+    max-width: 70%;
+  }
+
+  .Proyecto-tags {
+    display: flex;
+    margin-top: 0.6rem;
+    max-width: 100%;
+  }
+
+  .Proyecto-tag {
+    font-size: 0.75rem;
+  }
+}
+
+/* DESKTOP GRANDE */
+
+@media (min-width: 1441px) {
+  .Hero {
+    height: auto;
+  }
+
+  .Hero-videoContainer {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .Hero-video {
+    height: auto;
+    /* margin-top: -4.375rem;  */
+    /* Ajusta el recorte superior */
+    clip-path: inset(0 0 10px 0);
+  }
+
+  .Hero-titulo {
+    font-size: 1.8rem;
+    padding-left: 6rem;
+  }
+
+  .Hero-arrow {
+    padding-left: 6rem;
+  }
+
+  .Proyectos {
+    padding: 5rem 6rem;
+  }
+
+  .Proyecto-texts {
+    height: auto;
+    margin: 1.7rem;
+  }
+
+  .Proyecto-textsTit {
+    max-width: 80%;
+  }
+
+  .Proyecto-subtit {
+    margin: 1rem 0rem 1rem;
+  }
+
+  .Proyectos-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+
+  .Proyecto-tags {
+    display: flex;
+    margin-top: 0.8rem;
+    max-width: 100%;
+  }
+  .Proyecto-tag {
+    margin: 1rem 0 0 0;
+    font-size: 1.125rem;
+  }
+}

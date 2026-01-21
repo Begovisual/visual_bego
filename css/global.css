@@ -1,0 +1,503 @@
+/* Global maneja el header y footer que encontramos en todos los html que tengo así como sus mediaqueries. 
+
+Tb encontramos el Root y Reset que han sido claves para dar estilos generales a mi web */
+
+@font-face {
+  font-family: "Robert";
+  src: url(../font/roobert.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Editorial";
+  src: url(../font/editorial.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+/* __________________
+        RESET 
+ ____________________ */
+
+:root {
+  --color-primary: #11103d;
+  --color-secondary: #ffffff;
+  --color-gris: #4E4E56;
+  --color-violet: #eceaff;
+  --color-acento: #5f4aff;
+  --color-gris-claro: #f5f5f9;
+
+  --tipo-primary: "Robert", Helvetica, Arial, sans-serif;
+  --font-size-parrafo: 1rem;
+  --font-size-lead: 0.875rem;
+  --font-size-heading-md: 1.5rem;
+  --font-size-large: 2rem;
+
+  --padding: 1.5rem;
+  --padding-about: 1rem;
+  --letter-spacing: 0.06rem;
+  --border-radius-img: .75rem;
+  --border-radius-icon: 0.6rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+/* prettier-ignore */
+img, picture, video, iframe, figure {
+  max-width: 100%;   /* Así no se desbordan las imágenes más*/
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center center;
+}
+
+video {
+  border-radius: var(--border-radius-img);
+}
+
+/* Enlaces me funcionarán como cajas (block) salvo los enlaces que están dentro de párrafos (inline) */
+a {
+  display: block;
+  cursor: pointer;
+}
+
+p a {
+  display: inline;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth; /* Al clickar en un enlace con ancla -> scroll suave a la seccion*/
+}
+
+/* prettier-ignore */
+h1, h2, h3, h4, h5, h6, p, span, a, i, u, em {
+  font-size: 1em;
+  font-weight: inherit; /* Heredado de la etiqueta contenedora*/
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+}
+::selection {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+::placeholder {
+  font-family: var(--tipo-primary);
+}
+
+svg {
+  width: 100%;
+  display: block; /* Por defect es inline-block*/
+  fill: currentColor; /* Aplicar el color correct*/
+}
+
+.Body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  font-family: var(--tipo-primary);
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  line-height: 1.4;
+}
+
+.No-scroll {
+  overflow: hidden;
+}
+
+.Text-parrafo {
+  font-size: var(--font-size-parrafo);
+}
+
+/* Títulos pequeños */
+.Text-headingLead {
+  font-family: var(--tipo-secondary);
+  font-size: var(--font-size-lead);
+  /* font-weight: bold; */
+  letter-spacing: var(--letter-spacing);
+  margin-bottom: 1rem;
+}
+
+/* Títulos medianos */
+.Text-headingMedium {
+  font-size: var(--font-size-heading-md);
+}
+
+/* Títulos grandes */
+.Text-large {
+  font-size: var(--font-size-large);
+}
+
+/* __________________
+        HEADER 
+ ____________________ */
+
+.Header-nav {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+}
+
+.Header-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header-enlaces {
+  display: none;
+  color: var(--color-primary);
+  font-weight: bold;
+  letter-spacing: var(--letter-spacing);
+}
+ 
+/* Para enlaces (header-links / footer etc ) -> aplicamos color acento */
+.Acento:hover {
+  color: var(--color-acento);
+}
+
+.u-acento {
+  color: var(--color-acento);
+}
+
+.isActive {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 16rem 0 0 0;
+  align-items: center;
+  font-size: var(--font-size-heading-md);
+  gap: 2rem;
+}
+
+.Logo {
+  width: 2rem;
+  height: 2rem;
+}
+
+.Header-icon {
+  color: var(--color-primary);
+  display: block;
+  font-size: 2.5rem;
+}
+
+
+
+/* __________________
+        FOOTER 
+ ____________________ */
+
+.Footer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-gris-claro);
+
+  padding: 2rem var(--padding) var(--padding);
+  height: auto;
+}
+
+.Footer-lead {
+  display: flex;
+  flex-direction: row;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.Circle {
+  width: 0.9rem;
+  height: 0.9rem;
+  background-color: var(--color-acento);
+  box-shadow: 0 0.0625rem 0.375rem var(--color-acento);
+  border-radius: 100%;
+}
+
+.Footer-leadText {
+  font-size: var(--font-size-parrafo);
+  color: var(--color-acento);
+  letter-spacing: var(--letter-spacing);
+}
+
+.Footer-h2 {
+  padding: 1rem 0rem 1rem;
+  font-size: var(--font-size-large);
+  max-width: 90%;
+  line-height: 2.3rem;
+}
+
+.Footer-enlaces {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3em;
+  padding-bottom: 3.75rem;
+  gap: 1rem;
+}
+
+
+.Footer-link {
+  /* Afecta a linkedin y correo */
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+}
+
+.Footer-linkedin {
+  /* Es el contenedor [Linkedin] + [flecha] */
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.Flecha-blank {
+  text-decoration: none;
+  font-size: var(--font-size-parrafo);
+  transform: translateY(2px);
+}
+
+
+.Credits {
+  font-size: 0.875rem;
+  color: var(--color-gris);
+}
+
+/* _____________________________________________ 
+                Media Queries  
+  _____________________________________________*/
+
+/* MÓVILES GRANDES */
+@media (min-width: 481px) and (max-width: 767px) {
+  :root {
+    --font-size-parrafo: 1.125rem;
+    --font-size-lead: 1rem;
+    --font-size-heading-md: 1.4rem;
+    --letter-spacing: 0.07rem;
+  }
+
+  .isActive {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 18rem 0 0 0;
+    align-items: center;
+    font-size: var(--font-size-heading-md);
+    gap: 3rem;
+  }
+
+  .Header-nav {
+    padding: 1rem;
+  }
+
+  .Footer-enlaces {
+    flex-direction: row;
+  }
+}
+
+/* TABLETS */
+@media (min-width: 768px) and (max-width: 1024px) {
+  :root {
+    --font-size-parrafo: 1.125rem;
+    --font-size-lead: 1rem;
+    --font-size-heading-md: 1.4rem;
+    --font-size-large: 1.8rem;
+    --letter-spacing: 0.08rem;
+    --padding: 1.6rem;
+  }
+
+  .Header-enlaces {
+    display: none;
+    color: var(--color-gris);
+    font-weight: bold;
+  }
+
+  .isActive {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 18rem 0 0 0;
+    align-items: center;
+    font-size: var(--font-size-heading-md);
+    gap: 4rem;
+  }
+
+  .Header-icon {
+    font-size: 2.625rem;
+  }
+
+  .Footer {
+    padding: 4rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Footer-mainContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1.2rem;
+  }
+
+  .Footer-h2 {
+    max-width: 65%;
+  }
+
+  .Footer-enlaces {
+    flex-direction: column;
+    font-size: 1.5rem;
+    gap: 1rem;
+    padding-bottom: 0;
+  }
+}
+
+/* DESKTOP MEDIO */
+@media (min-width: 1024px) and (max-width: 1440px) {
+  :root {
+    --font-size-parrafo: 1.125rem;
+    --font-size-lead: 1.125rem;
+    --font-size-heading-md: 1.5rem;
+    --font-size-large: 2rem;
+    --letter-spacing: 0.085rem;
+    --padding: 1.8rem;
+  }
+
+  .Header-nav {
+    width: 100%;
+    height: auto;
+    padding: 1.125rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Header-enlaces {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.125rem;
+    gap: 2rem;
+    padding: 0;
+  }
+
+  .isActive {
+    height: auto;
+    flex-direction: row;
+    margin: 0;
+  }
+
+  .Header-icon {
+    display: none;
+  }
+
+  .Footer-mainContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .Footer-h2 {
+    max-width: 65%;
+    line-height: 2.3rem;
+    padding-top: 0.5rem;
+  }
+
+  .Footer-enlaces {
+    font-size: 1.7rem;
+    padding-bottom: 0;
+  }
+}
+
+/* DESKTOP GRANDE */
+@media (min-width: 1441px) {
+  :root {
+    --font-size-parrafo: 1.5rem;
+    --font-size-lead: 1.25rem;
+    --font-size-heading-md: 2.2rem;
+    --font-size-large: 3rem;
+    --padding: 4rem;
+  }
+
+  .Logo {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .Header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+  }
+
+  .Header-enlaces {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2.5rem;    
+    font-size: 1.25rem;
+  }
+
+  /* isActive se aplica a Header-enlaces */
+
+  .isActive {
+    height: auto;
+    flex-direction: row;
+  }
+
+  .Header-icon {
+    display: none;
+  }
+
+  .Footer {
+    padding: var(--padding);
+    height: auto;
+  }
+
+  .Footer-mainContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .Footer-h2 {
+    max-width: 80%;
+    line-height: 3rem;
+    padding-top: 0.5rem;
+  }
+
+  .Footer-enlaces {
+    font-size: 2rem;
+    gap: 1rem;
+    padding-bottom: 0;
+  }
+
+  .Credits {
+    font-size: 1.125rem;
+  }
+}

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Begoña Cz | Portfolio UX/UI</title>
+    <meta
+      name="description"
+      content="Soy Begoña Cardo y este es mi portfolio. Aquí muestro mis proyectos destacados sobre diseño UX/UI."
+    >
+    <meta
+      name="keywords"
+      content="Portfolio, Begoña Cardo, Diseño UX-UI, Diseño digital, Diseño web, Valencia, España, Profesional"
+    >
+    <meta name="author" content="Begoña Cardo" >
+    <meta name="copyright" content="© Begoña Cardo 2025. Todos los derechos reservados.">
+
+    <!-- Sigo el mismo orden para los links de los html:
+      1.Favicon / 2.Icons / 3.Global.css / 4.Especifico.css / 5.Global.js / 6.Especifico.js-->
+    <link rel="icon" type="image/webp" href="./img/favicon.webp" sizes="16x16">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css" >
+    <link rel="stylesheet" href="css/index.css" >
+    <script src="./js/global.js" defer></script>
+
+ 
+  </head>
+
+  <body class="Body">
+    <!-- HEADER -->
+    <header class="Header">
+      <nav class="Header-nav">
+        <div class="Header-items">
+          <a href="index.html" title="Volver al inicio" class="Header-logo">
+            <picture>
+              <img
+                class="Logo"
+                id="Logotipo"
+                src="img/logo.webp"
+                alt="logotipo en negro, una b con letras góticas"
+                loading="lazy"
+              >
+            </picture>
+          </a>
+          <button id="Header-boton">
+            <span class="Header-icon material-symbols-outlined Acento">add</span>
+          </button>
+        </div>
+
+        <ul class="Header-enlaces" id="Header-listaEnlaces">
+          <li>
+            <a
+              href="index.html#SeccionProyectos"
+              title="Ver la sección de proyectos"
+              class="Header-link u-acento Acento"
+              >Proyectos</a
+            >
+          </li>
+          <li><a href="about.html" title="Información sobre mi" class="Header-link Acento">Información</a></li>
+          <li><a
+          href="mailto:info@begovisual.com"
+          title="Enviar un mail"
+          target="_blank"
+          class="Header-link u-acento Acento"
+          rel="noopener noreferrer"
+          >Email  <span class="material-symbols-outlined Flecha-blank"> north_east </span></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="Main">
+      <!-- HERO -->
+      <section class="Hero">
+      <h1 class="Hero-title">
+        IT'S BEGO<br>
+        DISEÑADORA<br>
+        VISUAL & UX/UI
+      </h1>
+
+      <!-- <img src="img/cat.gif" alt="gif 1" class="Hero-gif gif-1" />
+      <img src="img/orquid.gif" alt="gif 2" class="Hero-gif gif-2" />
+      <img src="img/totoro.gif" alt="gif 3" class="Hero-gif gif-3" /> -->
+    </section>
+
+       <!-- <section class="Hero"> 
+        <video class="Hero-video" autoplay loop muted playsinline preload="metadata" poster="img/hero-poster.webp" aria-label="Video con el texto 'I'm Bego UX/UI designer' acompañado de tres gifs: un gato en un ordenador, Totoro y una flor.">
+          <source src="img/hero-vid.webm" type="video/webm">
+          <source src="img/hero-vid.mp4" type="video/mp4">
+          <p>Ups! Tu navegador no soporta vídeos, pero puedes descargarlo: 
+            <a href="img/hero-vid.mp4" download>Aquí (MP4)</a> o 
+            <a href="img/hero-vid.webm" download>Aquí (WebM)</a>
+          </p>
+        </video> -->
+
+        <h1 class="Hero-titulo">Sumérgete en mis proyectos</h1>
+        <a href="#SeccionProyectos">
+          <span class="material-symbols-outlined Hero-arrow"> arrow_downward </span>
+        </a>
+      </section>
+      <!-- SECCION PROYECTOS -->
+      <section class="Proyectos" id="SeccionProyectos">        
+
+        <div class="Proyectos-grid">
+           
+          <!-- Proyecto TROPA -->
+          <article class="Proyecto Proyecto--tropa">
+            <a href="projects.html?id=0" title="Visita Tropa" class="Proyecto-link">
+              <div class="Proyecto-imgContainer">
+                <picture>
+                  <img
+                    class="Proyecto-img"
+                    width="960"
+                    height="540"
+                    src="./img/thumbnail-tropa.webp"
+                    alt="en letras borrosas está escrito fuera de lugar"
+                    loading="lazy"
+                  >
+                </picture>
+              </div>
+
+              <div class="Proyecto-texts">
+                <h2 class="Proyecto-title">Tropa</h2>
+
+                <h3 class="Proyecto-subtit Proyecto-textsTit">Diseñando una red social para fomentar conexiones artísticas reales</h3>
+
+                  <ul class="Proyecto-tags">
+                    <li class="Proyecto-tag Proyecto-tag--tropa">Diseño UX/UI</li>
+                    <li class="Proyecto-tag Proyecto-tag--tropa">Design & Thinking</li>
+                  <!-- </ul> 
+                  <ul class="Proyecto-tags"> -->
+                    <li class="Proyecto-tag Proyecto-tag--tropa">App móvil</li>
+                    <li class="Proyecto-tag Proyecto-tag--tropa">Redes sociales</li>
+
+                  </ul>
+              </div>
+            </a>
+          </article>
+
+          <!-- Proyecto MOTTOR -->
+          <article class="Proyecto Proyecto--mottor">
+              <a href="projects.html?id=1" title="Visita Mottor" class="Proyecto-link">
+              <div class="Proyecto-imgContainer">
+                <picture>
+                  <img
+                    class="Proyecto-img"
+                    width="960"
+                    height="540"
+                    src="./img/thumbnail-mottor.webp"
+                    alt="tropa"
+                    loading="lazy"
+                  >
+                </picture>
+              </div>
+
+              <div class="Proyecto-texts">
+                <h2 class="Proyecto-title">Mottor</h2>
+
+                <h3 class="Proyecto-subtit Proyecto-textsTit">Inventando una forma más clara y motivadora de estudiar el carnet de conducir</h3>
+
+                <ul class="Proyecto-tags">
+                  <li class="Proyecto-tag Proyecto-tag--mottor">Diseño UX/UI</li>
+                  <li class="Proyecto-tag Proyecto-tag--mottor">Design & Thinking</li>
+              
+                  <li class="Proyecto-tag Proyecto-tag--mottor">WebApp</li>
+                  <li class="Proyecto-tag Proyecto-tag--mottor">EdTech</li>
+                </ul>
+              </div>
+       </a>
+          </article>
+      
+        <!-- Proyecto BRILLO -->
+          <article class="Proyecto Proyecto--brillo">
+            <a href="projects.html?id=2" title="Visita Brillo" class="Proyecto-link">
+              <div class="Proyecto-imgContainer">
+                <picture>
+                  <img
+                    class="Proyecto-img"
+                    width="960"
+                    height="540"
+                    src="./img/thumbnail-brillo.webp"
+                    alt="una tripografía en mayusculas escribe BRILLO"
+                    loading="lazy"
+                  >
+                </picture>
+              </div>
+
+              <div class="Proyecto-texts">
+                <h2 class="Proyecto-title Proyecto-textsTit">Brillo</h2>
+
+                <h3 class="Proyecto-subtit Proyecto-textsTit">Creando una dirección creativa para un evento de arte y naturaleza</h3>
+
+                <ul class="Proyecto-tags">
+                  <li class="Proyecto-tag Proyecto-tag--brillo">Diseño web</li>
+                  <li class="Proyecto-tag Proyecto-tag--brillo">Dirección creativa</li>
+                <!-- </ul> 
+                <ul class="Proyecto-tags"> -->
+                  <li class="Proyecto-tag Proyecto-tag--brillo">Redes sociales</li>
+                  <li class="Proyecto-tag Proyecto-tag--brillo">Eventos</li>
+                </ul>
+              </div>
+            </a>
+          </article>
+
+         <!-- Proyecto STEEZ -->
+          <article class="Proyecto Proyecto--steez">
+            <a href="projects.html?id=3" title="Visita Steez" class="Proyecto-link">
+              <div class="Proyecto-imgContainer">
+                <picture>
+                  <img
+                    class="Proyecto-img"
+                    width="960"
+                    height="540"
+                    src="./img/thumbnail-steez.webp"
+                    alt="una carita sonriente y un texto a su derecha de color neon sobre fondo negro"
+                    loading="lazy"
+                  >
+                </picture>
+              </div>
+
+              <div class="Proyecto-texts ">
+                <h2 class="Proyecto-title">Steez</h2>
+
+                <h3 class="Proyecto-subtit Proyecto-textsTit">Revolucionando el intercambio de sneakers con una app muuy Gen-Z</h3>
+
+                <ul class="Proyecto-tags">
+                  <li class="Proyecto-tag Proyecto-tag--steez">App móvil</li>
+                  <li class="Proyecto-tag Proyecto-tag--steez">Diseño de Interfaz</li>
+                  <li class="Proyecto-tag Proyecto-tag--steez">Iconografía</li>
+                  <li class="Proyecto-tag Proyecto-tag--steez">Moda</li>
+                </ul>
+              </div>
+            </a>
+          </article>
+
+        <!-- Proyecto FESTIVAL ITEM -->
+          <article class="Proyecto Proyecto--festival">
+            <a href="projects.html?id=4" title="Visita Item" class="Proyecto-link">
+              <div class="Proyecto-imgContainer">
+                <picture>
+                  <img
+                    class="Proyecto-img"
+                    width="960"
+                    height="540"
+                    src="./img/thumbnail-festival.webp"
+                    alt="ITEM escrito en mayusculas sobre fondo azul brillante"
+                    loading="lazy"
+                  >
+                </picture>
+              </div>
+
+              <div class="Proyecto-texts">
+                <h2 class="Proyecto-title">Item</h2>
+
+                <h3 class="Proyecto-subtit Proyecto-textsTit">Diseñando un evento de motion graphics con un enfoque experimental</h3>
+
+                <ul class="Proyecto-tags">
+                  <li class="Proyecto-tag Proyecto-tag--festival">Diseño web</li>
+                  <li class="Proyecto-tag Proyecto-tag--festival">App móvil</li>
+          
+                  <li class="Proyecto-tag Proyecto-tag--festival">Identidad visual</li>
+                  <li class="Proyecto-tag Proyecto-tag--festival">Eventos</li>
+
+                </ul>
+              </div>
+            </a>
+          </article>
+
+        <!-- Proyecto FUERA DE LUGAR -->
+          <article class="Proyecto Proyecto--lugar">
+            <a href="projects.html?id=5" title="Visita Fuera de lugar" class="Proyecto-link">
+              <div class="Proyecto-imgContainer">
+                <picture>
+                  <img
+                    class="Proyecto-img"
+                    width="960"
+                    height="540"
+                    src="./img/thumbnail-lugar.webp"
+                    alt="en letras borrosas está escrito fuera de lugar"
+                    loading="lazy"
+                  >
+                </picture>
+              </div>
+
+              <div class="Proyecto-texts">
+                <h2 class="Proyecto-title">Fuera de lugar</h2>
+
+                <h3 class="Proyecto-subtit Proyecto-textsTit">Creando un ecosistema visual para el lanzamiento de un disco de música </h3>
+
+                <ul class="Proyecto-tags">
+                  <li class="Proyecto-tag Proyecto-tag--lugar">Dirección creativa</li>
+                  <li class="Proyecto-tag Proyecto-tag--lugar">Diseño gráfico</li>
+                  <li class="Proyecto-tag Proyecto-tag--lugar">Spotify</li>
+                  <li class="Proyecto-tag Proyecto-tag--lugar">Industria musical</li>
+                </ul>
+              </div>
+            </a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+
+<!-- FOOTER -->
+    <footer class="Footer">
+      <div class="Footer-mainContainer">
+        <div class="Footer-textContainer">
+          <div class="Footer-lead">
+            <div class="Circle"></div>
+            <p class="Footer-leadText">DISPONIBLE</p>
+          </div>
+          <h2 class="Footer-h2">Estoy a un mensaje de distancia</h2>
+        </div>
+
+        <div class="Footer-enlaces">
+          <a
+            href="https://www.linkedin.com/in/begocz"
+            title="Enlace a mi Linkedin"
+            class="Footer-linkedin Acento"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p class="Footer-link">Linkedin</p>
+            <span class="material-symbols-outlined Flecha-blank"> north_east </span>
+          </a>
+          <a
+            href="mailto:info@begovisual.com"
+            title="Enviar un mail"
+            target="_blank"
+            class="Footer-link Acento"
+            rel="noopener noreferrer"
+            >info@begovisual.com</a
+          >
+        </div>
+      </div>
+
+      <span class="Credits">
+        © 2025 Begoña Cardo <br >
+        Diseño y desarrollo propio. Con amor, código... y matcha!
+      </span>
+    </footer>
+  </body>
+</html>

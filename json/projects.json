@@ -1,0 +1,419 @@
+[
+   {
+    "id": 0,
+    "titulo": "Tropa",
+    "icono": "./img/tropa-iconotitulo.svg",
+    "alt": "_",
+    "descripcion": "Tropa conecta a personas creativas que buscan colaborar, formar colectivos o simplemente vivir el arte en compañía a través de eventos y experiencias culturales. He seguido la metodología Design Thinking abordando las fases: observar, sintetizar, idear y diseñar.",
+    "imgaside": "./img/thumbnail-tropa.webp",
+    "SectionClaves": [
+      {
+        "subheading":"FASE OBSERVAR 1/4" ,
+        "heading": "Abundancia creativa",
+        "text": "Tras realizar el Desk research y la Netnografía, identifiqué un cambio clave en el panorama creativo: la <strong>democratización del arte</strong>  ha hecho que cada vez más personas exploren intereses artísticos, aunque no se definan como artistas. Fue gracias a la encuesta que pude descubrir valiosos insights. La puerta está abierta a un público creciente que busca <strong>conectar con otros perfiles creativos, para compartir experiencias, aprender y mejorar juntos; pero también puede ser usada con fines profesionales o de colaboración en proyectos </strong> .",
+        "swiper": true,
+      "imagenes": [
+      { "src": "img/tropa-dafo.webp", "alt": "cuadrante dafo" },
+      { "src": "img/tropa-bench.webp", "alt": "benchmarking" }
+    ] 
+      },
+
+      {
+        "subheading":"FASE SINTETIZAR 2/4" ,
+        "heading": "Jimena & Índigo",
+        "text": "Di forma a <strong>Jimena</strong> , una user persona que busca crear un colectivo para desarrollar un proyecto audiovisual. El segundo user persona es <strong> Índigo</strong>, un perfil más amateur y relajado, busca amistades afines fuera de su círculo para disfrutar de planes creativos. Realicé por cada perfil su Mapa de empatía, Customer journey y Matriz de necesidades.",
+        "swiper": true,
+      "imagenes": [
+      { "src": "img/tropa-jimena.webp", "alt": "user persona jimena" },
+      { "src": "img/tropa-mapajimena.webp", "alt": "mapa de empatía jimena" },
+      { "src": "img/tropa-journeyjimena.webp", "alt": "customer journey jimena" },
+      { "src": "img/tropa-indigo.webp", "alt": "user persona índigo" },
+      { "src": "img/tropa-mapaindigo.webp", "alt": "mapa de empatía índigo" },
+      { "src": "img/tropa-journeyindigo.webp", "alt": "customer journey índigo" }
+    ]
+  
+      },
+
+      {
+        "subheading":"FASE IDEAR 3/4" ,
+        "heading": "Propuesta de valor",
+        "text": "Durante esta fase tuve en cuenta los findings e insights, fui categorizando las funcionalidades por orden de viabilidad y prioridad. Finalmente llegué a mi propuesta de valor: <strong>una app que facilita la conexión entre personas creativas, ayudándolas a encontrar colaboradores, formar amistades artísticas y descubrir experiencias culturales.</strong> ",
+            "swiper": true,
+      "imagenes": [
+      { "src": "img/tropa-matriz.webp", "alt": "matriz de viabilidad" },
+      { "src": "img/tropa-ins.webp", "alt": "ins and outs" },
+      { "src": "img/tropa-moscow.webp", "alt": "cuadrante moscow" },
+      { "src": "img/tropa-propvalor.webp", "alt": "propuesta de valor" }
+
+    ]
+      }, 
+
+      {
+        "subheading":"FASE DISEÑAR 4/4" ,
+        "heading": "Celebración creativa",
+        "text": "La Danza de Matisse es una obra icónica que encarna los valores fundamentales de Tropa: <strong>la unión entre personas y la celebración de la creatividad compartida</strong>. Esta referencia artística se traduce visualmente en el logotipo y en la elección cromática: una paleta de tonos complementarios donde el <strong>naranja irradia dinamismo y energía creativa, mientras que el azul aporta equilibrio y serenidad</strong>. Para reforzar la accesibilidad y cercanía de la marca, opté por una tipografía sans-serif: clara y amigable.",
+         "swiper": true,
+      "imagenes": [
+      { "src": "img/tropa-inspo.webp", "alt": "Inspiración en La danza, de Henri Matisse" },
+      { "src": "img/tropa-wireframes.webp", "alt": "wireframes" },
+      { "src": "img/tropa-wireframes-descartados.webp", "alt": "wireframes descartados" }
+
+          ]      
+        }, 
+
+      {
+        "subheading":"EL RESULTADO" ,
+        "heading": "Conectando creativos",
+        "text": "La app se compone de una pantalla <strong>Inicio</strong> con accesos directos a las funcionalidades más importantes: eventos próximos, eventos sugeridos, algoritmo de recomendación de creativos con los que hacer match. La barra de navegación comunica con las secciones de: [<strong>Comunidad</strong>: foro y acceso colectivos] [<strong>Buscador</strong>: de eventos y miembros] [<strong>Calendario</strong>: donde gestionar reuniones y planes]. <strong> <a href='https://www.figma.com/proto/CgPE2OQIREvP4PRe0ZYbdV/%F0%9F%91%8B%F0%9F%8F%BC-App-Tropa---Bego%C3%B1a-C?node-id=215-4125&starting-point-node-id=215%3A4125&t=i35WggrxXOuq556N-1&fuid=1428781731922199111' target='_blank' rel='noopener noreferrer'> Interactúa con el prototipo -> aquí. </a></strong>",
+        "multiple": true,
+         "imagenes": [
+      { "src": "img/tropa-prototipo.webp", "alt": "prototipo, tres pantallas" },
+      { "src": "img/tropa-prototiposec.webp", "alt": "prototipo, secciones nav" }
+          ]    
+      }, 
+
+      {
+        "subheading":"APRENDIZAJES💫" ,
+        "heading": "Capa a capa",
+        "text": "Como un cuadro trabajado con paciencia, esta app fue tomando forma capa a capa. Primero, me aseguré de que resolviera una necesidades reales. Luego pulí la experiencia para que fuera clara y fluida; y, finalmente, añadí la capa más delicada: <strong>la conexión emocional</strong>.<br><br>El proceso fue enriquecedor no solo por el resultado, sino por las conversaciones generadas. Varias personas agradecieron que pensara en una herramienta que fomenta el <strong>apoyo mutuo</strong> dentro del ámbito creativo. Me encantaría ver Tropa en el mundo real, funcionando como lo imaginé: <strong>una app que acompaña, conecta y se siente auténtica.</strong>",
+        "img": false
+      }
+      
+    ],
+
+     "creditosTitle": "Interactúa con <br> el prototipo",
+      "creditos": [
+        {
+          "link": "https://www.figma.com/proto/CgPE2OQIREvP4PRe0ZYbdV/%F0%9F%91%8B%F0%9F%8F%BC-App-Tropa---Bego%C3%B1a-C?node-id=215-4125&starting-point-node-id=215%3A4125&t=i35WggrxXOuq556N-1&fuid=1428781731922199111' target='_blank' rel='noopener noreferrer", 
+          "title": "Ver prototipo",
+          "txt": "Ver prototipo <br> en Figma"
+        }
+    ]
+    
+
+    
+  },
+
+    {
+    "id": 1,
+    "titulo": "Mottor",
+    "icono": "./img/mottor-iconotitulo.svg",
+    "alt": "_",
+    "descripcion": "Mottor es una app que te prepara para aprobar el teórico de conducir a la primera, con test oficiales, seguimiento de progreso, mensajes de motivación y total libertad para estudiar desde cualquier parte. He seguido la metodología Design Thinking abordando las fases: observar, sintetizar, idear y diseñar.",
+    "imgaside": "./img/thumbnail-mottor.webp",
+    "SectionClaves": [
+      {
+        "subheading":"FASE OBSERVAR 1/4" ,
+        "heading": "Un nicho de mercado",
+        "text": "Tras realizar Desk research, Netnografía y analizar referentes internacionales, detecté una oportunidad en España: <strong>desarrollar una app con modelo freemium, desvinculada de autoescuelas, que ofrezca tests oficiales y una experiencia de usuario cuidada.</strong> Esta propuesta responde a quienes prefieren estudiar por su cuenta, viven en zonas remotas o no necesitan clases presenciales. Las entrevistas y encuestas me ayudaron a definir a los usuarios finales e identificar puntos de mejora.",
+        "swiper": true,
+      "imagenes": [
+      { "src": "img/mottor-dafo.webp", "alt": "cuadrante dafo" },
+      { "src": "img/mottor-bench.webp", "alt": "benchmarking" },
+      { "src": "img/mottor-entrevistas.webp", "alt": "entrevistas a Ana y Julián" },
+      { "src": "img/mottor-encuesta.webp", "alt": "encuesta a usuarios" }
+
+    ] 
+      },
+
+      {
+        "subheading":"FASE SINTETIZAR 2/4" ,
+        "heading": "Carmen & Jorge",
+        "text": "Di forma a “Carmen”. El primer User persona que está estudiando el carnet tipo B. También a Jorge, que está opositando a bombero y estudia el carnet de camión tipo C. Realicé por cada perfil su <strong>Mapa de empatía, Customer journey y Matriz de necesidades.</strong>",
+        "swiper": true,
+      "imagenes": [
+      { "src": "img/mottor-usercarmen.webp", "alt": "user persona carmen" },
+      { "src": "img/mottor-journeycarmen.webp", "alt": "customer journey carmen" },
+      { "src": "img/mottor-userjorge.webp", "alt": "user persona jorge" },
+      { "src": "img/mottor-journeyjorge.webp", "alt": "customer journey jorge" }
+
+    ]
+  
+      },
+
+      {
+        "subheading":"FASE IDEAR 3/4" ,
+        "heading": "Propuesta de valor",
+        "text": "Después de analizar <strong>Findings e Insights</strong>, realicé el cluster y fui categorizando las funcionalidades por orden de viabilidad y prioridad. Finalmente llegué a la <strong>propuesta de valor:</strong> una app que te prepara para aprobar el teórico a la primera, con test oficiales, seguimiento de progreso, mensajes de motivación y total libertad para estudiar en remoto.",
+            "swiper": true,
+      "imagenes": [
+      { "src": "img/mottor-insights.webp", "alt": "findings e insights" },
+      { "src": "img/mottor-moscow.webp", "alt": "cuadrante moscow" },
+      { "src": "img/mottor-propvalor.webp", "alt": "propuesta de valor" }
+    ]
+      }, 
+
+      {
+        "subheading":"FASE DISEÑAR 4/4" ,
+        "heading": "Encendiendo mottores",
+        "text": "Arranqué con el <strong>site map, flow charts y wireframes</strong>. Después de realizar el prototipo mid-fi, lancé mi primera interacción con <strong>Maze:</strong> relicé cambios en el UX-writing que mejoraron la usabilidad. Cerré esta fase configurando el <strong>sistema de diseño</strong>.",
+         "swiper": true,
+      "imagenes": [
+      { "src": "img/mottor-sitemap.webp", "alt": "sitemap" },
+      { "src": "img/mottor-flowchart.webp", "alt": "flowchart" },
+      { "src": "img/mottor-wireframes.webp", "alt": "wireframes" },
+      { "src": "img/mottor-test.webp", "alt": "test de usuarios con maze" },
+       { "src": "img/mottor-variables.webp", "alt": "variables y estilos de figma" }
+          ]      
+        }, 
+
+      {
+        "subheading":"EL RESULTADO" ,
+        "heading": "¡Estamos en ruta!",
+        "text": "La app se compone de una pantalla Inicio con accesos directos a las funcionalidades más importantes y una barra de navegación  que comunica con las secciones: [ <strong>Ruta:</strong> el plan de estudios generado por IA adaptado a fecha de examen ] — [ <strong>Tests:</strong> para practicar la teoría de diferentes maneras ] — [ <strong>Perfil:</strong> para configurar las preferencias del usuario ]. <br> <strong> <a href='https://www.figma.com/proto/vl79WrWszqYT90flsqVcC5/%F0%9F%9A%97-App-Mottor---Bego%C3%B1a-C?node-id=589-3428&t=S8mjAhLwdEpfpMXH-1&scaling=scale-down&content-scaling=fixed&page-id=589%3A3303&starting-point-node-id=589%3A3428' target='_blank' rel='noopener noreferrer'> Interactúa con el prototipo -> aquí. </a></strong>",
+        "multiple": true,
+         "imagenes": [
+      { "src": "img/mottor-prototipoinicio.webp", "alt": "prototipo, pantallas generales" },
+      { "src": "img/mottor-prototipoexamen.webp", "alt": "prototipo, realizar test y ver resultados" },
+        { "src": "img/mottor-feedback.webp", "alt": "prototipo, los tres tipos de feedback" },
+          { "src": "img/mottor-web.webp", "alt": "versión web" }
+          ]    
+      }, 
+
+      {
+        "subheading":"APRENDIZAJES" ,
+        "heading": "La importancia de discernir",
+        "text": "Seguir la metodología <strong>Design Thinking</strong> me ha ayudado a no perder el foco y a tomar decisiones basadas en la investigación. No me he limitado a diseñar y ya, si no que he discernido constantemente: qué podía ser útil y necesario para el usuario, qué podía mejorar según los principios de <strong>Nielsen</strong> y cómo podía conectar al usuario con la marca usando herramientas como <strong>UX writing</strong> o conceptos propios de la temática. ¡Me hubiera encantado prepararme el examen con una app así! <strong>:)</strong>",
+        "img": false
+      }
+      
+    ],
+
+     "creditosTitle": "Interactúa con <br> el prototipo",
+      "creditos": [
+        {
+          "link": "https://www.figma.com/proto/vl79WrWszqYT90flsqVcC5/%F0%9F%9A%97-App-Mottor---Bego%C3%B1a-C?node-id=589-3428&t=S8mjAhLwdEpfpMXH-1&scaling=scale-down&content-scaling=fixed&page-id=589%3A3303&starting-point-node-id=589%3A3428' target='_blank' rel='noopener noreferrer", 
+          "title": "Ver prototipo",
+          "txt": "Ver prototipo <br> en Figma"
+        }
+    ]
+    
+
+    
+  },
+ 
+  {
+    "id": 2,
+    "titulo": "Brillo",
+    "icono": "./img/brillo-iconotitulo.svg",
+    "alt": "icono de brillo, una B blanca sobre fondo verde oliva",
+    "descripcion": "Dirigí la dirección de arte y el diseño web de Retiro Brillo, un evento que fusiona arte y naturaleza. Con un tono de voz dulce y auténtico, su territorio es la creatividad, y sus valores giran en torno a la naturaleza, la luminosidad y la introspección.",
+    "imgaside": "./img/thumbnail-brillo.webp",
+
+    "SectionClaves": [
+      {
+        "subheading":"" ,
+        "heading": "Naturaleza y expresividad",
+        "text": "La identidad visual se construye a partir de dos colores principales: verde y crema, reforzando la conexión con la <strong>naturaleza</strong>. El logo tiene un toque <strong>juguetón y dinámico</strong>. Realicé algunas pruebas que reforzaban el concepto de brillar. Sin embargo, aposté por los beneficios de una </çstrong>versión vectorizable</strong>, fácil de usar en web o impresión.",
+
+        "swiper": true,
+      "imagenes": [
+      { "src": "img/brillo-logos.webp", "alt": "logo en versión negativo y positivo" },
+      { "src": "img/brillo-prueba.webp", "alt": "logo anterior de brillo" },
+      { "src": "img/brillo-antes.webp", "alt": "otra prueba de logo" }
+      ]
+      },
+      {
+        "subheading":"" ,
+        "heading": "Comunicación Visual",
+        "text": "Las <strong>ilustraciones analógicas</strong>, pintadas con acrílico, aportan un toque artesanal y artístico. Para la <strong>dirección de fotografía</strong> saqué imágenes diurnas y coloridas, transmitiendo frescura y vitalidad. Apliqué estos resultados en la web y las <a href='https://www.instagram.com/stories/highlights/18060815005573146/' target='_blank' rel='noopener noreferrer'> <strong>historias de instagram :)</strong> </a> ",
+           "swiper": true,
+      "imagenes": [
+      { "src": "img/brillo-ilustraciones.webp", "alt": "ilustraciones analógicas" },
+      { "src": "img/brillo-instagram.webp", "alt": "pantallas de stories de Instagram" },
+      { "src": "img/brillo-fotos.webp", "alt": "fotografías" }
+      ]
+      },
+      {
+        "subheading":"" ,
+        "heading": "¡Diseño web!",
+        "text": " <a href='https://retirobrillo.webflow.io/' target='_blank' rel='noopener noreferrer'> <strong>Diseñé esta web con Webflow. </strong> </a> Primeramente usé componentes de <strong>Relume</strong> para ayudarme a estructurar la landing y agilizar el proceso. También hice pruebas de color y fui refinando el copy.",
+               "swiper": true,
+      "imagenes": [
+      { "src": "img/brillo-web.webp", "alt": "web de brillo" },
+      { "src": "img/brillo-relume.webp", "alt": "estructura de la landing" }
+      ]
+      },
+
+       {
+        "subheading":"APRENDIZAJES" ,
+        "heading": "Un reto de principio a fin",
+        "text": "Este proyecto implicaba poner en práctica numerosas habilidades: de <strong>logística y gestión de recursos</strong> (comida, tiempos, alojamiento, personas), pero también de <strong>marketing, comunicación y creatividad</strong>. <br><br> Personalmente me encanta pensar los proyectos de manera global y transversal, por lo que considero que he podido aprender muchísimo y sobre todo disfrutar del proceso. Aunque en ese momento no tenía los conocimientos de desarrollo web, accesibilidad y SEO, me alegra haberme atrevido. Gracias a este proyecto decidí formarme en diseño web :)",
+        "img": false
+      }
+    ], 
+
+    
+
+      "creditosTitle": "Enlaces <br> interesantes",
+      "creditos": [
+        {
+          "link": "https://retirobrillo.webflow.io/", 
+          "title": "Visita la web de Brillo",
+          "txt": "Web de Brillo"
+        },
+         {
+          "link": "https://www.instagram.com/stories/highlights/18060815005573146/", 
+          "title": "Instagram Stories",
+          "txt": "Instagram Stories"
+        }
+    ]
+  },
+
+  {
+    "id": 3,
+    "titulo": "Steez",
+    "icono": "./img/steez-iconotitulo.svg",
+    "alt": "icono de steez, carita sonriente en negro sobre fondo neon",
+    "descripcion": "Identidad gráfica y diseño de interfaz para una aplicación de intercambio y alquiler de sneakers. 'Exchange & Shine' se convierte en el lema de personas jóvenes que aman la moda, las sneakers y la sostenibilidad.",
+    "imgaside": "./img/thumbnail-steez.webp",
+
+    "SectionClaves": [
+      {
+        "heading": "Llamando la atención a través de la identidad",
+        "text": "La identidad visual se compone de una paleta de colores en tonos gris y negro, con un acento de color neón. Aunque las tipografías utilizadas son sin serifa, su combinación genera <strong>contraste y un estilo desenfadado</strong>",
+        "img": "./img/steez-pantallas.webp",
+        "alt": "tres pantallas formato mobile, mostrando la identidad de steez"
+      },
+      {
+        "heading": "Iconos que no dejan indiferente",
+        "text": "Disfruté especialmente el proceso de creación del set de iconos. Diseñados en <strong>Illustrator</strong> como vectores, presentan una estética asimétrica y afilada que aporta personalidad a la interfaz.",
+        "img": "./img/steez-iconos.webp",
+        "alt": "iconos de steez y una pantalla móvil donde se muestran estos iconos aplicados"
+      },
+      {    
+        "heading": "La importancia de priorizar",
+        "text": "Antes de diseñar, analizamos cómo lograr un equilibrio entre una app visualmente atractiva para el público joven y una experiencia de usuario óptima. Gracias a la pirámide UX y al árbol de funcionalidades, conseguimos nuestro objetivo. A continuación encontramos el <strong>Sitemap</strong> de Steez.",
+        "img": "./img/steez-arbol.webp",
+        "alt": "sitemap steez"
+      }
+    ],
+
+    "creditosTitle": "Trabajo realizado junto con",
+    "creditos": [
+      {
+        "link": "https://www.katmadesign.com/",
+        "title": "Página web de Ekaterina",
+        "txt": "Ekaterina Matveeva"
+      },
+      {
+        "link": "https://www.instagram.com/nomilkhouse/",
+        "title": "Instagram de Silvia",
+        "txt": "Silvia Castillo"
+      }
+    ]
+
+  },
+
+  {
+    "id": 4,
+    "titulo": "Item",
+    "icono": "./img/festival-iconotitulo.svg",
+    "alt": "sobre fondo azul, una espiral blanca",
+    "descripcion": "Item es un festival de motion design dirigido a estudiantes y profesionales del sector. Diseñé la interfaz tanto para la web como para la app. La web gestiona la venta de entradas e informa sobre el evento, mientras que la app guía a los asistentes durante el festival.",
+    "imgaside": "./img/thumbnail-festival.webp",
+    "SectionClaves": [
+      {
+        "subheading":"" ,
+        "heading": "Soluciones nicho para un nicho de diseñadores",
+        "text": "La comunicación gráfica está pensada específicamente para el público de Item: los <strong>motion designers</strong> . Para el diseño del festival, tomé como referencia los softwares de motion graphics, integrando símbolos, jerarquías y elementos de interacción inspirados en estas herramientas.",
+         "swiper": true,
+      "imagenes": [
+      { "src": "img/festival-desktop.webp", "alt": "menu de navegación de la web" },
+      { "src": "img/festival-programacion.webp", "alt": "pantalla de la programación del festival en versión web" },
+      { "src": "img/festival-mapa.webp", "alt": "pantalla del mapa del festival en versión web" }
+      ]
+      },
+      {
+        "subheading":"" ,
+        "heading": "Dispositivos diferentes, objetivos distintos",
+        "text": "La <strong>web</strong>  del festival permite acceder al programa, consultar el mapa del recinto y obtener información clave. En cambio, la <strong>app</strong>  está diseñada para que los asistentes gestionen su acceso al evento, revisen sus inscripciones o se apunten a nuevas actividades.",  
+        "swiper": true,
+           "imagenes": [
+      { "src": "img/festival-ipad.webp", "alt": "pantalla de los ponentes en versión ipad" },
+      { "src": "img/festival-mobile.webp", "alt": "tres pantallas mobile" }
+      ]
+      },
+      {
+        "subheading":"" ,
+        "heading": "Diseño centrado <br> en el usuario",
+        "text": "Un estudio previo del público asistente fue esencial para definir la mejor propuesta en web y app. Hay tres tipos de usuario, con su respectiva entrada: entrada pro, entrada de estudiante y de ponente. Si ITEM fuese un arquetipo, sería el <strong>arquetipo visionario</strong>.",
+      
+               "swiper": true,
+      "imagenes": [
+              { "src": "img/festival-user-archetype.webp", "alt": "arquetipo visionario" },
+
+      { "src": "img/festival-user-isa.webp", "alt": "user persona del pase pro" },
+      { "src": "img/festival-user-chris.webp", "alt": "user persona del pase estudiante" },
+         { "src": "img/festival-user-liza.webp", "alt": "user persona del pase ponente" }, { "src": "img/festival-entradas.webp", "alt": "tres tipos de entradas" }
+      ]
+      },
+
+         {
+        "subheading":"APRENDIZAJES" ,
+        "heading": "Juego en movimiento",
+        "text": "Mi intención fue desarrollar una comunicación visual alineada con el <strong> universo estético</strong>  de los motion designers. Aunque tanto la interfaz como el branding tienen un punto arriesgado y experimental, procuré mantener siempre un <strong>equilibrio<strong>  para no sacrificar la funcionalidad en la navegación de la app.",
+        "img": false
+      }
+    ]
+
+    
+
+ 
+  },
+
+  {
+    "id": 5,
+    "titulo": "Fuera de lugar",
+    "icono": "./img/lugar-iconotitulo.svg",
+    "alt": "una flor violeta sobre fondo grisáceo",
+    "descripcion": "¿Cómo sería conceptualizar y crear la gráfica para el lanzamiento de un disco? Desde los primeros singles hasta el álbum final, pasando por Spotify Canvas, diseño de vinilo y merchandising. Así interpreté Fuera de lugar, el disco de Kora, bajo mi propia óptica.",
+    "imgaside": "./img/thumbnail-lugar.webp",
+    "SectionClaves": [
+      {
+        "subheading":"" ,
+        "heading": "Emociones a flor de piel",
+        "text": "Al escuchar el disco y analizar sus letras en profundidad, identifiqué <strong>conceptos clave</strong>: el pasado, lo inadecuado, el dolor y la sensibilidad. Basándome en el libro 'Teoría del color' de </strong>Eva Heller</strong>, extraje una paleta cromática que reflejara estas sensaciones.",
+        "img": "./img/lugar-identidad.webp",
+        "alt": "tipografía sans serif, colores pastel y texturas granuladas usadas en el proyecto"
+      },
+      {
+        "subheading":"" ,
+        "heading": "Internet, identidad y música",
+        "text": "Lanzar los <strong>singles como adelantos de un álbum</strong> es una práctica común en la industria musical actual. Esta estrategia capta la atención del público de forma progresiva y aumenta las escuchas antes del lanzamiento completo. Por eso, diseñé todas las portadas con una coherencia gráfica sólida. Además, desarrollé el <strong>Spotify Canvas</strong>, una animación breve que acompaña la escucha y capta la atención del usuario.",
+          "multiple": true,
+        "imagenes": [
+        { "src": "img/lugar-singles.webp", "alt": "los tres singles en la interfaz de spotify" },
+        { "src": "img/lugar-disco.webp", "alt": "el album visto en ipad y movil en la interfaz de spotify" },
+        { "src": "img/lugar-spotifycanvas.webm", "alt": "spotify canvas en movimiento" }
+
+    
+        ]
+      },
+      {
+        "subheading":"" ,
+        "heading": "Lo tangible sigue siendo importante",
+        "text": "El diseño no se quedó solo en lo digital. Realicé diferentes piezas de <strong>merchandising</strong>: el vinilo, pósters, una camiseta y una bolsa de tela para transportarlo todo :)",
+         "multiple": true,
+          "imagenes": [
+        { "src": "img/lugar-vinilomov.webm", "alt": "vinilo mockup en movimiento" },
+        { "src": "img/lugar-vinilo.webp", "alt": "vinilo estático, parte delantera y trasera" },
+        { "src": "img/lugar-camiseta.webp", "alt": "camiseta merchan, parte delantera y trasera" },
+        { "src": "img/lugar-totebag.webp", "alt": "totebag" },
+          { "src": "img/lugar-poster.webp", "alt": "dos posters del disco" }
+        ]
+      },
+
+       {
+        "subheading":"APRENDIZAJES" ,
+        "heading": "Últimos acordes",
+        "text": "Uno de los mayores retos fue definir el proyecto desde cero, sin referentes claros, y aprender a investigar guiada por la curiosidad, entrevistando a personas desconocidas para afinar el enfoque. Ha sido un proceso que me ha hecho crecer, tanto a nivel personal como profesional, y que me ha reafirmado en algo importante: <strong>me apasiona comunicar de forma global y estratégica</strong>. <br><br> Todo el universo gráfico (paleta, tipografía, ilustración) se construyó desde el <strong>análisis</strong>, pero también desde la <strong>intuición</strong> y la <strong>sensibilidad</strong>. El resultado es una identidad visual coherente, con fuerza digital y pensada para acompañar con autenticidad a una artista emergente.",
+        "img": false
+      }
+    ]
+  }
+
+  
+ 
+
+]

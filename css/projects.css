@@ -1,0 +1,403 @@
+/* ___________________________  
+       PROJECT HEADER         
+  ___________________________ */
+
+.ProjectHeader {
+  padding: 5rem var(--padding) var(--padding);
+}
+
+.ProjectHeader-cabecera {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 1rem;
+  gap: 1rem;
+}
+
+.ProjectHeader-imgContainer {
+  width: 3rem;
+  height: 3rem;
+}
+
+.ProjectHeader-img {
+  object-fit: cover;
+  border-radius: var(--border-radius-icon);
+}
+
+.ProjectHeader-title {
+  font-size: var(--font-size-large);
+  font-weight: bold;
+  letter-spacing: var(--letter-spacing);
+}
+
+.ProjectHeader-description {
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+}
+
+/* ____________________________________  
+            SECTION CLAVE              
+  _____________________________________*/
+
+.Text-headingLead {
+  margin-bottom: 0rem;
+}
+
+.Text-headingMedium {
+  margin-bottom: 0.8rem;
+  font-weight: bold;
+}
+
+.SectionClave {
+  background-color: rgb(246, 246, 246);
+  padding: 2rem var(--padding) 1rem;
+  height: auto;
+}
+
+.SectionClave--color {
+  background-color: var(--color-secondary);
+}
+
+.Section-parrafos {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.Section-textContainer {
+  height: auto;
+  margin-bottom: var(--padding);
+}
+
+.Section-imgContainer {
+  width: 100%;
+  height: auto;
+}
+
+.SectionClave-img {
+  object-fit: cover;
+  border-radius: var(--border-radius-img);
+  width: 100%;
+  height: auto;
+}
+
+/* Imágenes en columna */
+.Section-multipleImages {
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding);
+}
+
+
+/* Swiper */
+.Swiper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 2.2rem;
+  }
+
+.Swiper-img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius-img);
+  object-fit: cover;
+}
+
+.swiper-pagination {
+  text-align: center;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--color-primary);
+}
+
+
+/* ____________________________________  
+                CREDITOS              
+   _____________________________________*/
+
+.Creditos {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 4rem var(--padding);
+  background-color: var(--color-secondary);
+}
+
+.Creditos-titulo {
+  width: 70%;
+  font-size: var(--font-size-heading-md);
+  font-weight: bold;
+  line-height: 1.6rem;
+}
+
+.Creditos-link {
+  font-size: var(--font-size-parrafo);
+  text-decoration: underline;
+  margin-bottom: 0.3rem;
+}
+
+/* ____________________________________ 
+                 ASIDE                    
+ _____________________________________*/
+
+.Aside {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  height: auto;
+  padding: 3rem var(--padding);
+  color: var(--color-secondary);
+  background-color: #cbcacd;
+}
+
+.Aside-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  width: 100%;
+  height: 14rem;
+  padding: var(--padding);
+
+  border-radius: var(--border-radius-img);
+  background-size: cover;
+  background-position: center;
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.Aside-container:hover {
+  transform: scale(1.03);
+}
+
+.Aside-text {
+ mix-blend-mode: exclusion;
+  font-size: var(--font-size-parrafo);
+}
+
+
+
+
+
+/* ________________________ */
+/*       Media Queries      */
+/* ________________________ */
+
+/* TABLETS */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .Section-textGroup {
+    width: 40%;
+    padding-right: var(--padding);
+  }
+
+ .swiper-pagination-bullet {
+  width: 0.5rem;
+   width: 0.5rem;
+}
+
+  .Section-textContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .Section-parrafos {
+    width: 90%;
+  }
+
+  .Creditos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .Creditos-titulo {
+    line-height: 1.6rem;
+  }
+
+  .Creditos-links {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-left: 4rem;
+  }
+
+  .Aside {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/* DESKTOP MEDIO */
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .Section-textGroup {
+    width: 40%;
+    padding-right: 2rem;
+  }
+
+  .ProjectHeader-description {
+    max-width: 75%;
+  }
+
+  .Section-imgContainer {
+    width: 100%;
+    height: auto;
+  }
+
+  .SectionClave-img {
+  border-radius: 1.125rem;
+  }
+
+  .Swiper {
+  padding-bottom: 3rem;
+  }
+
+  .swiper-pagination-bullet {
+  width: 0.65rem;
+  height: 0.65rem;
+}
+
+  .Section-textContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .Section-parrafos {
+    gap: 1.5rem;
+    width: 90%;
+  }
+
+  .Creditos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+  }
+
+  .Creditos-titulo {
+    font-size: var(--font-size-heading-md);
+    width: 30%;
+    line-height: 2rem;
+  }
+
+  .Creditos-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-left: 5rem;
+  }
+
+  .Aside {
+    display: flex;
+    flex-direction: row;
+    padding: 6rem 9rem;
+  }
+
+  .Aside-festival {
+    height: 250px;
+  }
+
+}
+/* DESKTOP GRANDE */
+@media (min-width: 1441px) {
+
+  .ProjectHeader-cabecera {
+    padding-bottom: 2rem;
+  }
+  
+  .ProjectHeader-imgContainer {
+    width: 4rem;
+    height: 4rem;
+  } 
+
+  
+  .Swiper {
+  padding-bottom: 3rem;
+  }
+
+  .swiper-pagination-bullet {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+  .Section-textGroup {
+    width: 60%;
+    padding-right: 6rem;
+  }
+
+  .ProjectHeader-description {
+    width: 80%;
+  }
+
+  .SectionClave {
+    padding: var(--padding);
+  }
+
+  .SectionClave-img {
+  border-radius: 1.125rem;
+  }
+
+
+.ProjectHeader-description {
+  font-size: 2.2em;
+  line-height: 2.6rem;
+} 
+  .Section-textContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .Section-imgContainer {
+    width: 100%;
+    height: auto;
+  }
+
+  .Section-parrafos {
+    gap: 2rem;
+    width: 90%;
+  }
+
+  .Creditos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+  }
+
+  .Creditos-titulo {
+    width: 20%;
+    line-height: 2.5rem;
+  }
+
+  .Creditos-links {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    margin-left: 6rem;
+  }
+
+  .Creditos-link {
+    font-size: var(--font-size-heading-md);
+  }
+
+  .Aside {
+    display: flex;
+    flex-direction: row;
+    padding: 7rem 9rem;
+    gap: 5rem;
+  }
+  .Aside-container {
+    height: 22rem;
+  }
+
+  .Aside-festival {
+    height: 250px;
+  }
+  
+}
